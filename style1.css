@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: white;
+    height: 150px;
+    color: white;
+    background-color: black;
+    border:  solid 3px aquamarine;
+}
+
+.container {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.navbar {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    width: 40%;
+    font-weight: lighter;
+}
+
+.content {
+    background-color: rgb(194, 214, 154);
+    height: 350px;
+}
+
+.content .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    width: 50%;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.navbar li {
+    font-weight: lighter;
+}
+.navbar li a {
+    text-decoration: none;
+    color: goldenrod
+}
+
+.navbar .active {
+    font-weight: bolder;
+}
+
+.banner {
+    height: 500px;
+    background-image: url("https://a-static.besthdwallpaper.com/red-velvet-irene-em-power-up-mv-atire-papel-de-parede-3840x1080-52378_75.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.message {
+    color: white;
+    font-size: 30px;
+    margin-left: 600px;
+    width: 10%;
+    text-shadow: black 2px 2px 2px;
+}
+
+span {
+    font-size: bolder;
+}
+
+.proposito {
+    height: 450px;
+}
+
+.proposito .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.proposito .container .mvv div img {
+height: 100px;
+width: 100px;
+}
+
+.proposito .container .mvv {
+justify-content: space-between;
+display: flex;
+margin-top: 50px;
+width: 100%;
+
+}
+
+.proposito .container h1 {
+    color: #E6005A;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+.proposito .container .mvv div  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    text-align: center;
+}
+
+.proposito .container .mvv div h3 {
+    color: #E6005A;
+    font-weight: bolder;
+    margin: 25px 0px;
+}
+
+.footer {
+    background-color: aqua;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    color: white;
+    font-weight: bolder;
+}
+
+.banner .form-login {
+ background-color: rgba(0, 0, 0, 0.691);
+ height: 400px;
+ width: 400px;
+ align-items: center;
+ display: flex;
+ justify-content: space-around;
+ border-radius: 25px;
+flex-direction: column;
+color: white;
+font-weight: bolder;
+text-shadow: black 2px 2px 2px;
+}
+
+.banner .form-login input{
+    border-radius: 20px;
+    height: 30px;
+    padding-left: 13px;
+}
+
+
+.banner .form-login button {
+    border-radius: 25px;
+    background-color: red;
+    color: white;
+    border-color: red;
+    width: 90px;
+    height: 50px;
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+    text-shadow: black 2px 2px 2px;
+    margin: 20px 0;
+
+}
+
+.banner .form-login h2 {
+    color: white;
+    margin: 20px 0;
+    text-shadow: black 2px 2px 2px;
+}
+
+#cadastro {
+    margin: 5px;
+}
